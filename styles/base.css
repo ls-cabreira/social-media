@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --verde: hsl(75, 94%, 57%);
+    --branco: hsl(0, 0%, 100%);
+    --cinza: hsl(0, 0%, 20%);
+    --cinza-escuro: hsl(0, 0%, 12%);
+    --preto: hsl(0, 0%, 8%);
+    --fonte: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: var(--fonte);
+}

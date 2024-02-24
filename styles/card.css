@@ -1,0 +1,58 @@
+/* Container card */
+.card {
+    margin: 2rem auto;
+    width: 70vw;
+    max-width: 340px;
+    text-align: center;
+    background-color: var(--cinza-escuro);
+    padding: 1.2rem 1rem;
+    border-radius: 16px;
+}
+
+
+/* Informações do perfil */
+.info__img {
+    width: 95px;
+    border-radius: 80px;
+}
+
+.info__nome {
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.info__local {
+    margin: 1rem 0;
+    color: var(--verde);
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.info__descricao {
+    color: var(--branco);
+    font-size: 0.7rem;
+}
+
+
+/* Lista de redes sociais */
+.social__lista {
+    margin: 1.5rem auto;
+    max-width: 280px;
+}
+
+.lista__media {
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 0.9rem 0;
+    font-size: 0.9rem;
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.lista__media:hover {
+    background-color: var(--verde);
+    color: var(--preto);
+}
