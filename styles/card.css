@@ -56,3 +56,9 @@
     background-color: var(--verde);
     color: var(--preto);
 }
+
+@media screen and (min-width: 1400px) {
+    .card {
+        margin: 15rem auto;
+    }
+}
