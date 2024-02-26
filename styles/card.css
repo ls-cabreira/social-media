@@ -1,6 +1,12 @@
 /* Container card */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .card {
-    margin: 2rem auto;
     width: 70vw;
     max-width: 340px;
     text-align: center;
